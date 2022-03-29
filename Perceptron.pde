@@ -54,6 +54,7 @@ class Perceptron {
   void visualize() {
     Point p1 = new Point(-1 * width, predictY(-1) * width);
     Point p2 = new Point(1 * width, predictY(1) * height);
+    stroke(0,0,255);
     line(p1.x, p1.y, p2.x, p2.y);
   }
 }
